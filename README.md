@@ -7,15 +7,17 @@
 ### 核心交付物 (The Product)
 这些文件是**最终用户**会复制到自己项目中的内容：
 
-*   **`docs/rules/` (宪法)**: 强制性执行规范。
+*   **`docs/rules/` (宪法)**: 强制性执行规范。用于定义整体项目的规范和 Workflow。
     *   `00_META_RULES.md`: 项目的元规则，定义了生命周期和优先级。
     *   `01_WORKFLOW.md`: 包含了需求分析、架构设计、代码实现的具体工作流。
     *   `02_SPRING_PROTOCOL.md`: 定义了迭代（Sprint）管理的标准。
     *   `03_HANDOVER_PROTOCOL.md`: 定义了上下文交接的标准。
     *   `04_CODE_ANALYSIS.md`: 定义了如何分析现有代码并提取风格偏好的协议。
-*   **`docs/prefs/` (习惯法)**: 可选的、经验性的偏好设置。
+*   **`docs/prefs/` (习惯法)**: 可选的、经验性的偏好设置。用于通过增减文件来管理特定的技能 (Skills) 与最佳实践。
     *   存放针对特定语言（Java, Vue）、框架（Spring Boot, Nuxt）或架构模式的代码风格定义。
     *   这些文件通常由 Agent 分析现有代码后自动生成。
+*   **`docs/handovers/` (上下文管理)**: 用于记录开发进度。在 AI Agent 清除上下文的场景下，作为下一次编码的“记忆延续”。
+    *   **注意**：在将本框架应用于新项目时，请务必清理此目录下的旧记录。
 *   **`templates/main.md`**: 用户将其复制到自己项目根目录的 Prompt 入口。
 
 ### 本项目维护 (Internal Maintenance)
