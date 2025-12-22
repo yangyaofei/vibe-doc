@@ -1,2 +1,4 @@
-data/
+# data/
 .DS_Store
+.idea/
+.jbeval

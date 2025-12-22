@@ -36,7 +36,7 @@
 ### 场景 B: 维护/更新 Vibe-Doc 本身
 1.  确保你处于 `vibe-doc` 仓库根目录。
 2.  将根目录下的 `main.md` 发送给 AI Agent。
-3.  下达指令（例如：“分析 data/mh-town 的代码风格并更新 prefs”，或“修改 01_WORKFLOW 增加测试环节”）。
+3.  下达指令（例如：“分析 data/XXX 的代码风格并更新 prefs”，或“修改 01_WORKFLOW 增加测试环节”）。
 
 ## 🤝 贡献
 本项目通过 AI 自我迭代进行维护。请遵循 `docs/handovers/` 中的最新记录进行上下文恢复。
