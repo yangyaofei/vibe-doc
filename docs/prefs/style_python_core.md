@@ -6,52 +6,7 @@
 *   **Type Hinting**: 
     *   **强制**: 所有函数参数和返回值必须包含 Type Annotation。
     *   **目的**: 启用静态代码分析 (mypy/pyright) 和 IDE 智能提示。
-*   **Git Ignore**: 标准 Python `.gitignore` 模板。
-
-### Standard .gitignore
-```gitignore
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual Environment
-venv/
-.venv/
-env/
-
-# IDE
-.idea/
-.vscode/
-*.swp
-.DS_Store
-
-# Logs
-*.log
-logs/
-
-# gRPC Generated
-*_pb2.py
-*_pb2.pyi
-*_pb2_grpc.py
-```
+*   **Git Ignore**: 必须遵循 [Python .gitignore 规范](./style_python_gitignore.md)。
 
 ## 2. Configuration Management (config.py)
 *   **Library**: 必须使用 `pydantic-settings`。
@@ -78,7 +33,7 @@ class DatabaseConfig(BaseSettings):
     port: int = 5432
 
 class Settings(BaseSettings):
-    APP_NAME: str = "Vibe App"
+    APP_NAME: str = "My App"
     DEBUG: bool = False
     
     # 嵌套配置 (对应环境变量: DB__HOST)
