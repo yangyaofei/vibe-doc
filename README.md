@@ -10,7 +10,7 @@
 *   **`docs/rules/` (宪法)**: 强制性执行规范。用于定义整体项目的规范和 Workflow。
     *   `00_META_RULES.md`: 项目的元规则，定义了生命周期和优先级。
     *   `01_WORKFLOW.md`: 包含了需求分析、架构设计、代码实现的具体工作流。
-    *   `02_SPRING_PROTOCOL.md`: 定义了迭代（Sprint）管理的标准。
+    *   `02_SPRINT_PROTOCOL.md`: 定义了迭代（Sprint）管理的标准。
     *   `03_HANDOVER_PROTOCOL.md`: 定义了上下文交接的标准。
     *   `04_CODE_ANALYSIS.md`: 定义了如何分析现有代码并提取风格偏好的协议。
 *   **`docs/prefs/` (习惯法)**: 可选的、经验性的偏好设置。用于通过增减文件来管理特定的技能 (Skills) 与最佳实践。

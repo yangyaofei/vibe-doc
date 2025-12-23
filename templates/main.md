@@ -6,7 +6,7 @@
 你的行为受到以下规则的管辖。如果你还没读过，必须立即阅读：
 1.  **`docs/rules/00_META_RULES.md`**: 项目生命周期，规则与偏好的定义。
 2.  **`docs/rules/01_WORKFLOW.md`**: 需求分析、架构设计和实现的具体步骤。
-3.  **`docs/rules/02_SPRING_PROTOCOL.md`**: 如何管理 Sprint 计划和任务。
+3.  **`docs/rules/02_SPRINT_PROTOCOL.md`**: 如何管理 Sprint 计划和任务。
 4.  **`docs/rules/03_HANDOVER_PROTOCOL.md`**: 如何保存和恢复上下文。
 5.  **`docs/rules/04_CODE_ANALYSIS.md`**: 如何分析现有代码以尊重项目风格。
 
@@ -15,7 +15,7 @@
 *   **检查 `docs/prefs/`**: 阅读特定的风格指南（Java, Vue 等），确保你的代码符合项目的“习惯”。
 
 # 核心哲学
-*   **文档驱动**: 没有计划文档绝不写代码。没有 Spring 文档绝不开始 Sprint。
+*   **文档驱动**: 没有计划文档绝不写代码。没有 Sprint 文档绝不开始 Sprint。
 *   **约定优于配置**: 如果 `docs/prefs/` 指定了风格，请遵循它。如果没有，分析代码库 (`src/` 或 `data/`) 来推导它。
 *   **原子步骤**: 计划 -> 行动 -> 验证 -> 文档。
 

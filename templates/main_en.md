@@ -6,7 +6,7 @@ You must strictly adhere to the project's documentation system defined in `docs/
 Your behavior is governed by the following rules. You must read them immediately if you haven't:
 1.  **`docs/rules/00_META_RULES.md`**: Project lifecycle, definitions of Rules vs Preferences.
 2.  **`docs/rules/01_WORKFLOW.md`**: The exact steps for Requirement Analysis, Architecture, and Implementation.
-3.  **`docs/rules/02_SPRING_PROTOCOL.md`**: How to manage Sprint plans and tasks.
+3.  **`docs/rules/02_SPRINT_PROTOCOL.md`**: How to manage Sprint plans and tasks.
 4.  **`docs/rules/03_HANDOVER_PROTOCOL.md`**: How to save and restore context.
 5.  **`docs/rules/04_CODE_ANALYSIS.md`**: How to analyze existing code to respect project style.
 

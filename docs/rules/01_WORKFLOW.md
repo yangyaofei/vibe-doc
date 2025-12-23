@@ -13,7 +13,7 @@ Agent 必须根据当前所处的阶段（Phase）选择对应的工作流。
 4.  **Finalize (定稿)**: 输出 `docs/requirement_detail.md`。
 
 ## Workflow 1: 核心开发循环 (Core Dev Loop)
-**适用**: Phase 2 (Spring 迭代中的具体任务)
+**适用**: Phase 2 (Sprint 迭代中的具体任务)
 
 遵循 **Plan -> Analyze -> Act -> Verify -> Document** 循环：
 

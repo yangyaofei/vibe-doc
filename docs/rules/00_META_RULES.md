@@ -13,7 +13,7 @@
     *   **产出**: `docs/tech.md` (唯一事实来源)。
 *   **Phase 2: 构建与迭代 (Construction)**
     *   **输入**: `tech.md`。
-    *   **活动**: Spring 迭代开发 (Sprint Planning -> Execution -> Closing)。
+    *   **活动**: Sprint 迭代开发 (Sprint Planning -> Execution -> Closing)。
     *   **产出**: 代码变更、测试报告、`docs/archive/step_*.md`。
 
 ## 2. 规则体系 (Rule System)

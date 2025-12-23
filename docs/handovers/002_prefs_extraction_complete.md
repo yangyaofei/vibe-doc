@@ -2,7 +2,7 @@
 
 ## 1. Status (当前状态)
 *   **风格指南体系建立完成**: 整合了 Java (Spring Boot), Python (FastAPI), Vue 3 的工程最佳实践。
-*   **规则增强**: Spring 迭代协议增加了垂直切片实践。
+*   **规则增强**: Sprint 迭代协议增加了垂直切片实践。
 
 ## 2. History (本次变更)
 *   **Python (`docs/prefs/style_python_fastapi.md`)**: 
